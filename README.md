@@ -18,13 +18,13 @@ yarn
 yarn dev
 ```
 
-> 🚧 Essa aplicação não possui frontend, foi utilizado o Insomnia REST Client para fazer as requisições com o backend
+> 🚧 Essa aplicação não possui frontend, foi utilizado o **Insomnia REST Client** para fazer as requisições com o backend
 
 ## 🙂 Sobre o autor
 
 **Guilherme teixeira**
 
-[![github](http://ap.imagensbrasil.org/images/2018/12/10/github-logo-1.png) ](https://github.com/guitexa)
+[![github](http://ap.imagensbrasil.org/images/2018/12/10/github-logo-1.png) ](https://github.com/guitexa)&nbsp;
 [![linkedin](http://ap.imagensbrasil.org/images/2018/12/10/linkedin-1.png)](https://www.linkedin.com/in/guitexa/)
 
 ## Licença
