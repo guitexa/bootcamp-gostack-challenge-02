@@ -18,7 +18,7 @@ yarn
 yarn dev
 ```
 
-> 🚧 Essa aplicação não possui frontend, foi utilizado o **Insomnia REST Client** para fazer as requisições com o backend
+> 🚧 Esta API foi executada com êxito juntamente com o frontend do seguinte repositório: https://github.com/guitexa/bootcamp-gostack-challenge-03, porém pode ser executada utilizando apenas o **Insomnia REST Client** para fazer as requisições.
 
 ## 🙂 Sobre o autor
 
