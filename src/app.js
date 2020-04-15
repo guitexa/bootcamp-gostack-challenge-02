@@ -8,6 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// Check if the repository exists
 app.use('/repositories/:id', (request, response, next) => {
   const { id } = request.params;
 
@@ -22,10 +23,12 @@ app.use('/repositories/:id', (request, response, next) => {
 
 const repositories = [];
 
+// List repositories
 app.get('/repositories', (request, response) => {
   return response.json(repositories);
 });
 
+// Create a new repository
 app.post('/repositories', (request, response) => {
   const { title, url, techs } = request.body;
 
@@ -42,6 +45,7 @@ app.post('/repositories', (request, response) => {
   return response.json(repository);
 });
 
+// Update repository
 app.put('/repositories/:id', (request, response) => {
   const { id } = request.params;
   const { title, url, techs } = request.body;
@@ -55,6 +59,7 @@ app.put('/repositories/:id', (request, response) => {
   return response.json(repositories[getIndex]);
 });
 
+// Delete repository
 app.delete('/repositories/:id', (request, response) => {
   const { id } = request.params;
 
@@ -65,6 +70,7 @@ app.delete('/repositories/:id', (request, response) => {
   return response.status(204).send();
 });
 
+// Give a like to the repository
 app.post('/repositories/:id/like', (request, response) => {
   const { id } = request.params;
 
