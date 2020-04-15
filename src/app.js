@@ -23,7 +23,7 @@ app.use('/repositories/:id', (request, response, next) => {
 
 const repositories = [];
 
-// List repositories
+// List existing repositories
 app.get('/repositories', (request, response) => {
   return response.json(repositories);
 });
